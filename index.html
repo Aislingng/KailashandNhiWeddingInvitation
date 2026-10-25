@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="theme-color" content="#f3eee7">
+<meta name="description" content="Kailash & Nhi — wedding invitation, 21 December 2026.">
+<title>Kailash & Nhi — Wedding Invitation</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@300;400;500&family=Italianno&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f3eee7;--ink:#4a3028;--brown:#4b2d24;--gold:#b99a63;--sage:#71816b;--muted:#8c776c}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;background:var(--paper)}
+body{margin:0;color:var(--ink);font-family:"DM Sans",sans-serif;background:
+ radial-gradient(ellipse at 20% 8%,rgba(255,255,255,.8),transparent 38%),
+ radial-gradient(ellipse at 88% 45%,rgba(218,203,188,.2),transparent 35%),
+ repeating-linear-gradient(0deg,rgba(95,71,56,.018) 0 1px,transparent 1px 4px),var(--paper);overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.17;z-index:10;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.8' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.13'/%3E%3C/svg%3E");mix-blend-mode:multiply}
+a{color:inherit}button{font:inherit}
+section{position:relative;min-height:100svh;padding:clamp(54px,10vw,100px) 20px;display:flex;align-items:center;flex-direction:column;justify-content:center;text-align:center;isolation:isolate}
+.eyebrow{font-size:10px;letter-spacing:.19em;text-transform:uppercase;font-weight:400}
+h1,h2,h3,p{margin:0}
+h1,h2,.names,.date-number{font-family:"Cormorant Garamond",serif;font-weight:400}
+h1{font-size:clamp(62px,15vw,108px);line-height:.79;letter-spacing:-.055em;margin:25px 0 30px}
+h1 span{display:block}
+.script{font-family:"Italianno",cursive;font-weight:400}
+h2{font-size:clamp(42px,11vw,74px);line-height:.95;letter-spacing:-.025em}
+p{line-height:1.7}
+.hero{min-height:100svh;padding-top:60px;padding-bottom:60px;overflow:hidden}
+.hero .mail-label{margin-top:10px}
+.hero h1{margin-bottom:42px}
+.envelope-wrap{width:min(100%,470px);position:relative;cursor:pointer;transition:transform .7s cubic-bezier(.2,.8,.2,1);border:0;background:none;padding:0}
+.envelope-wrap img{display:block;width:100%;height:auto;filter:drop-shadow(0 16px 18px rgba(58,35,25,.08))}
+.envelope-wrap:after{content:"";position:absolute;inset:23% 13% 20%;border-radius:4px;background:linear-gradient(145deg,#674338,#3f241d);z-index:-1;opacity:0;transform:translateY(0);transition:all .8s}
+.envelope-wrap:hover{transform:translateY(-5px)}
+.envelope-wrap:focus-visible{outline:2px solid var(--gold);outline-offset:8px}
+.open-hint{margin-top:18px;font-size:11px;letter-spacing:.16em;text-transform:uppercase;animation:breathe 2.2s ease-in-out infinite}
+.scroll-cue{position:absolute;bottom:20px;left:50%;transform:translateX(-50%);font-size:9px;letter-spacing:.2em;text-transform:uppercase;opacity:.6;display:flex;align-items:center;gap:10px}
+.scroll-cue:after{content:"";height:28px;width:1px;background:var(--gold);display:block;animation:line 1.7s ease-in-out infinite}
+.section-date{padding-top:72px;padding-bottom:70px;overflow:hidden}
+.section-date:before,.details:before{content:"";position:absolute;inset:0;z-index:-1;opacity:.3;background:radial-gradient(ellipse at 12% 50%,rgba(255,255,255,.9),transparent 28%),radial-gradient(ellipse at 90% 20%,rgba(255,255,255,.8),transparent 24%)}
+.save-title{font-size:clamp(76px,20vw,124px);line-height:.64;margin:12px 0 28px}
+.save-title span{display:block}
+.section-date .subtitle{font-size:11px;letter-spacing:.13em}
+.collage{width:min(100%,440px);margin:28px auto 10px;position:relative}
+.collage img{width:100%;display:block;filter:drop-shadow(0 18px 15px rgba(62,41,30,.12));transform:rotate(-1deg)}
+.names{font-size:clamp(44px,11vw,68px);line-height:1;margin-top:28px}
+.invite-line{font-size:11px;letter-spacing:.16em;text-transform:uppercase;margin-top:12px}
+.monogram{font-family:"Cormorant Garamond",serif;font-size:clamp(54px,14vw,80px);color:var(--gold);line-height:1;margin-bottom:12px;font-style:italic}
+.flags{font-size:11px;letter-spacing:.14em;margin-bottom:38px}
+.family-name{font-family:"Cormorant Garamond",serif;font-size:clamp(28px,7.4vw,42px);line-height:1.05}
+.parent{font-size:12px;color:#a18555;margin-top:7px}
+.and{font-family:"Italianno",cursive;font-size:40px;margin:9px 0}
+.invitation-copy{margin:38px auto 24px;font-size:14px;max-width:300px}
+.date-row{display:grid;grid-template-columns:1fr 1.15fr 1fr;align-items:center;width:min(100%,390px);margin:0 auto 42px}
+.date-row>div+div{border-left:1px solid var(--gold)}
+.date-weekday,.date-year{font-size:13px}
+.date-month{font-size:14px}
+.date-number{font-size:68px;line-height:.9;margin:5px 0}
+.ceremony{font-size:clamp(29px,8vw,42px);margin-bottom:10px}
+.address{font-size:14px;max-width:320px;margin:0 auto}
+.heart{font-size:22px;margin:22px 0 7px}
+.time{font-family:"Cormorant Garamond",serif;font-size:28px}
+.signoff{font-family:"Italianno",cursive;font-size:34px;margin:12px 0 0}
+.couple{width:calc(100% + 40px);max-width:620px;margin:36px -20px -75px;position:relative;overflow:hidden}
+.couple img{width:100%;display:block;mask-image:linear-gradient(to bottom,transparent 0%,black 9%,black 100%)}
+.rsvp{display:inline-block;margin-top:28px;border:1px solid var(--gold);border-radius:999px;padding:13px 24px;text-decoration:none;text-transform:uppercase;letter-spacing:.14em;font-size:10px;transition:background .3s,color .3s}
+.rsvp:hover{background:var(--brown);color:var(--paper)}
+.footer{padding:42px 20px 55px;text-align:center;font-family:"Cormorant Garamond",serif;font-size:23px}
+.footer small{display:block;font-family:"DM Sans",sans-serif;font-size:9px;letter-spacing:.18em;text-transform:uppercase;margin-top:9px}
+.reveal{opacity:0;transform:translateY(28px);transition:opacity 1s ease,transform 1s cubic-bezier(.2,.7,.2,1)}
+.reveal.in-view{opacity:1;transform:translateY(0)}
+.reveal.delay-1{transition-delay:.12s}.reveal.delay-2{transition-delay:.24s}.reveal.delay-3{transition-delay:.36s}
+body.opened .envelope-wrap{transform:translateY(-8px) scale(.97)}
+body.opened .envelope-wrap:after{opacity:1;transform:translateY(-18px)}
+.petal{position:fixed;top:-30px;z-index:11;pointer-events:none;font-size:14px;color:#b9a38b;opacity:.6;animation:fall linear forwards}
+@keyframes breathe{0%,100%{opacity:.55}50%{opacity:1}}
+@keyframes line{0%{transform:scaleY(.45);transform-origin:top}50%{transform:scaleY(1);transform-origin:top}100%{transform:scaleY(.3);transform-origin:bottom}}
+@keyframes fall{to{transform:translate3d(var(--drift),110vh,0) rotate(500deg);opacity:0}}
+@media(min-width:700px){section{padding-left:32px;padding-right:32px}.hero{min-height:100vh}.section-date{min-height:100vh}.details{min-height:100vh}.couple{margin-top:55px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation:none!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<main>
+  <section class="hero" id="home">
+    <p class="eyebrow mail-label reveal">You have a mail from</p>
+    <h1 class="reveal delay-1"><span>Kailash</span><span>&amp; Nhi</span></h1>
+    <button class="envelope-wrap reveal delay-2" id="openInvite" aria-label="Open wedding invitation">
+      <img src="assets/envelope-florals.webp" alt="A dark mocha wedding envelope with a gold K and N wax seal and delicate flowers">
+    </button>
+    <p class="open-hint reveal delay-3">Tap to open · Scroll to explore</p>
+    <div class="scroll-cue">Scroll</div>
+  </section>
+
+  <section class="section-date" id="save-date">
+    <div class="reveal">
+      <h2 class="script save-title"><span>Save</span><span>the Date</span></h2>
+      <p class="subtitle">WE ARE GETTING MARRIED!</p>
+    </div>
+    <div class="collage reveal delay-1">
+      <img src="assets/photo-collage.webp" alt="Wedding invitation collage with the couple's photographs, a date card and a mocha envelope">
+    </div>
+    <h2 class="names reveal delay-2">Kailash &amp; Nhi</h2>
+    <p class="invite-line reveal delay-3">Joyfully invite you to...</p>
+  </section>
+
+  <section class="details" id="details">
+    <div class="monogram reveal">K&amp;N</div>
+    <p class="flags reveal delay-1">FIJI <span aria-hidden="true">♥</span> VIETNAM</p>
+    <div class="reveal delay-1">
+      <h2 class="family-name">Kailash Aniketh Goundar</h2>
+      <p class="parent">Mom: Rena Devi Mani</p>
+    </div>
+    <div class="and reveal delay-1">and</div>
+    <div class="reveal delay-2">
+      <h2 class="family-name">Nhi Ngoc Nguyen</h2>
+      <p class="parent">Dad: Thu Trung Nguyen</p>
+    </div>
+    <p class="invitation-copy reveal delay-2">joyfully invite you to celebrate our wedding</p>
+    <div class="date-row reveal delay-2">
+      <div class="date-weekday">Monday</div>
+      <div><div class="date-month">December</div><div class="date-number">21</div></div>
+      <div class="date-year">2026</div>
+    </div>
+    <div class="reveal delay-3">
+      <h2 class="ceremony">Wedding Ceremony</h2>
+      <p class="address">at Pinder Ponds, Roxburgh East 9572</p>
+      <div class="heart">♥</div>
+      <p class="time">13:00 PM</p>
+      <p class="signoff">Sincerely,</p>
+    </div>
+    <div class="couple reveal">
+      <img src="assets/couple-lakeside.webp" alt="The couple standing together beneath a floral arch beside a lake">
+    </div>
+    <a class="rsvp reveal" href="https://maps.google.com/?q=Pinder+Ponds+Roxburgh+East+9572+New+Zealand" target="_blank" rel="noopener">View location ↗</a>
+  </section>
+  <footer class="footer">Kailash &amp; Nhi<small>December 21, 2026 · With love</small></footer>
+</main>
+<script>
+(() => {
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  const reveals = document.querySelectorAll('.reveal');
+  if ('IntersectionObserver' in window && !reduceMotion) {
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('in-view');
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -4% 0px' });
+    reveals.forEach(el => observer.observe(el));
+  } else reveals.forEach(el => el.classList.add('in-view'));
+
+  const opener = document.getElementById('openInvite');
+  opener.addEventListener('click', () => {
+    document.body.classList.add('opened');
+    opener.setAttribute('aria-label', 'Invitation opened');
+    if (!reduceMotion) makePetals(13);
+    document.getElementById('save-date').scrollIntoView({behavior: reduceMotion ? 'auto' : 'smooth'});
+  });
+
+  function makePetals(count) {
+    for (let i=0;i<count;i++) {
+      const petal = document.createElement('span');
+      petal.className = 'petal';
+      petal.textContent = ['✦','✧','❀'][Math.floor(Math.random()*3)];
+      petal.style.left = Math.random()*100 + 'vw';
+      petal.style.setProperty('--drift', (Math.random()*140-70)+'px');
+      petal.style.animationDuration = (5+Math.random()*5)+'s';
+      petal.style.animationDelay = (Math.random()*1.5)+'s';
+      petal.style.fontSize = (10+Math.random()*10)+'px';
+      document.body.appendChild(petal);
+      setTimeout(() => petal.remove(), 12000);
+    }
+  }
+})();
+</script>
+</body>
+</html>
